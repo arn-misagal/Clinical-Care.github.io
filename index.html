@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinical Form</title>
+    <style>
+        *{
+            margin: 10px;
+            padding: 0;
+            background-color: rgb(243, 225, 201);
+            
+        }
+        body{
+            margin-top: 200px;
+            border: 1px solid black;
+        }
+        h1{
+            text-align: center;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgba(212, 173, 66, 0.466);
+        }
+        .container{
+            align-items: center;
+            text-align: center;
+            padding: 15px;
+
+        }
+        .btn{
+            height: 30px;
+            width: 90px;
+            border-radius: 10px;
+            cursor: pointer;
+            align-items: center;
+        }
+        .user, .pass{
+            height: 30px;
+            width: 280px;
+        }
+        p{
+            text-align: center;
+        }
+        button > a{
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Please Fill out the form</h1>
+    <p>Welcome to Rn Clinic</p>
+    <div class="container">
+    <input class="user" type="text" name="username" placeholder="Username"><br>
+    <input class="pass" type="password" name="password" placeholder="Password"><br>
+    <button class="btn"><a href="/patient.html">Submit</a></button>
+</div>
+</body>
+</html>
